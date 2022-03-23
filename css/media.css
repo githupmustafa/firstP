@@ -1,0 +1,39 @@
+/* Start Maximam width 375px */
+@media only screen and (max-width:768px){
+    .body{
+        width: 100%;
+        font-size: 95%;
+        padding: 10px;
+
+    }
+    /* Start main header  */
+    .mainHeader nav{
+        height: 180px;
+    }
+    .mainHeader nav ul{
+        padding: 0px;
+        width: 100%;
+    }
+    .mainHeader nav ul li{
+        display: block;
+        margin: 10px ;
+    }
+
+    /* End main header  */
+
+
+    /* Start Content  */
+    .mainContent{ width: 100%; }
+    /* End Content  */
+
+    /* Start aside  */
+    aside{
+        width: 100%;
+        margin-left: 0;   
+        height: auto;
+    }
+    /* End aside  */
+
+
+}
+/* End Maximam width 375px */

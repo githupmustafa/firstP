@@ -1,0 +1,184 @@
+@import 'reset.css';
+/* Start variables */
+:root{
+    --mainColor:#395B64;
+    --secondColor:#2666CF;
+}
+/* End variables */
+
+
+
+
+/* Start General Styling */
+body{
+    background-image: url("/images/backgroundImage.jfif");
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--mainColor);
+}
+.body{
+    clear: both;
+    width: 70%;
+    margin: 5px auto;
+}
+a{
+    text-decoration: none;
+}
+/* End General Styling */
+
+
+
+
+
+
+/* Start main header  */
+.mainHeader{
+    width: 100%;
+}
+.mainHeader nav{
+    background-color: #18181a;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid var(--mainColor);
+    border-radius: 3px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.mainHeader nav ul{
+    list-style: none;
+}
+.mainHeader nav ul li{
+    display: inline-block;
+    margin: 0 18px;
+}
+.mainHeader nav ul li a{
+    color: #fff;
+}
+.mainHeader nav ul li a:hover, .mainHeader nav ul li a:active{
+    color: var(--secondColor);
+    background-color: #191d1b;  
+}
+/* End main header  */
+
+
+
+
+
+
+
+
+
+
+
+/* Start Content  */
+.mainContent{
+    width: 70%;
+    float: left;
+}
+.content{
+    background-color: #fff;
+    border: 1px solid rgb(197, 197, 188);
+    border-radius:4px ;
+    margin-top: 2%;
+    padding: 2%;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.content a{
+    color: #9fafc5;
+}
+.content article p{
+    padding-top: 10px;
+    line-height: 1.1;
+    font-size: 90%;
+    text-align: justify;
+}
+figure{
+    margin: 15px 0;
+}
+figcaption{
+    font-size: 80%;
+    color: #999;
+}
+.imageSection{
+    width: 100%;
+    
+}
+/* End Content  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start aside  */
+aside{
+    width: 29%;
+    background-color: #fff;
+    border: 1px solid rgb(197, 197, 188);
+    border-radius:4px ;
+    margin-top: 2%;
+    padding: 1%;
+    margin-left: 1%;
+    float: left;
+    height: 170px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+aside p{
+    text-align: justify;
+    line-height: 1.1;
+}
+/* End aside  */
+
+
+
+
+
+
+
+
+
+
+
+/* Start footer  */
+.footer{
+    width: 100%;
+    background-color: #18181a;
+    padding: 1%;
+    margin-top: 1%;
+    height: 70px;
+    border: 1px solid var(--mainColor);
+    border-radius: 3px;
+    float: left;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.footer p{
+    margin-left:3%;
+    margin-top: 1%;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.footer ul li a{
+    color: rgb(185, 185, 185);
+}
+.footer ul li a:hover, .mainHeader nav ul li a:active{
+    color: var(--secondColor);
+    background-color: #191d1b;  
+}
+/* End footer  */
+
+
